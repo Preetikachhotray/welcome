@@ -15,24 +15,55 @@ header {
 header nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 header nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .hero {
-    padding: 50px 20px;
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
     text-align: center;
-    background: #e4e4e4;
+    color: #fff;
 }
 
 .hero h1 {
+    font-size: 3rem;
     margin: 0;
-    font
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: #e4e4e4;
+}
+
+.section {
+    text-align: center;
+    max-width: 200px;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #666;
+}
